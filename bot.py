@@ -125,4 +125,4 @@ async def chatrevive(interaction: discord.interactions):
     chatrevive.set_author(name=interaction.user.display_name, icon_url=interaction.user.avatar)
     await interaction.channel.send(content=role.mention, embed=chatrevive)
 
-client.run("MTE3Mzc1NTE3MTcwMTAxNDU1OA.GBLH5D.NrBjgIUIIT8QL0vKSMsFc7WpT8XJzhvoBAbZuE")
+client.run("")
